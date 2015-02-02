@@ -1,4 +1,24 @@
 <?php
+  /*
+$super_admins = get_super_admins();
+echo 'List of super-admin users:<ul>';
+foreach ($super_admins as $admin) {
+    echo '<li>' . $admin . '</li>';
+}
+echo '</ul>';
+
+$user_accounts = get_users( array('search' => '*'));
+echo 'List of users:<ul>';
+foreach ($user_accounts as $user_account) {
+    echo '<li>' . print_r($user_account) . '</li>';
+}
+echo '</ul>';
+*/
+//will make user super admin
+//grant_super_admin( $user_id );
+
+
+
 /*
 Author: Eddie Machado
 URL: htp://themble.com/bones/

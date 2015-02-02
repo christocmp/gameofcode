@@ -1,4 +1,9 @@
 <?php
+/** Enable W3 Total Cache Edge Mode */
+define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
+
+
+
 /**
  * The base configurations of the WordPress.
  *
@@ -80,7 +85,16 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'local.gameofcode.co.uk');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
 /* That's all, stop editing! Happy blogging. */
+
+define( 'WP_ALLOW_MULTISITE', true );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
